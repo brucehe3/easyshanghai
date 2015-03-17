@@ -8,6 +8,7 @@
 
 #import "HomeViewController.h"
 #import "BWCommon.h"
+#import "AFNetworkTool.h"
 
 @interface HomeViewController ()
 
@@ -28,7 +29,27 @@
     
     [[self view] setBackgroundColor:[UIColor colorWithRed:228.0f/255.0f green:228.0f/255.0f blue:228.0f/255.0f alpha:1]];
     
+    
+    NSString *url = [BWCommon getAPIUrl:@"?11"];
+    
+    [AFNetworkTool JSONDataWithUrl:url success:^(id json) {
+        
+        NSLog(@"%@",json);
+        
+        NSInteger _errno =  (NSInteger) [json objectForKey: @"errno"];
+        
+        if ( _errno == 0 ){
+            
+        }
+        
+        // 提示:NSURLConnection异步方法回调,是在子线程
+        // 得到回调之后,通常更新UI,是在主线程
+        //        NSLog(@"%@", [NSThread currentThread]);
+    } fail:^{
+        NSLog(@"请求失败");
+    }];
 
+    
 }
 
 

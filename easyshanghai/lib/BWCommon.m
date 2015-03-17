@@ -36,4 +36,12 @@
     return value;
 }
 
++(NSString *) getAPIUrl:(NSString *) action{
+    
+    NSString * api_url;
+    api_url = [BWCommon getBaseInfo:@"api_url"];
+    return [NSString stringWithFormat:@"%@%@",api_url,action];
+    
+}
+
 @end
