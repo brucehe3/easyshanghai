@@ -1,18 +1,19 @@
 //
-//  FirstViewController.m
+//  SecondViewController.m
 //  easyshanghai
 //
 //  Created by Bruce He on 15-3-16.
 //  Copyright (c) 2015年 shanghai baiwei network technology. All rights reserved.
 //
 
-#import "FirstViewController.h"
+#import "NearbyViewController.h"
+#import "BWCommon.h"
 
-@interface FirstViewController ()
+@interface NearbyViewController ()
 
 @end
 
-@implementation FirstViewController
+@implementation NearbyViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

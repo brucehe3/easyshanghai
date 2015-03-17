@@ -1,5 +1,5 @@
 //
-//  FirstViewController.h
+//  TabBarViewController.h
 //  easyshanghai
 //
 //  Created by Bruce He on 15-3-16.
@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface FirstViewController : UIViewController
+@interface TabBarViewController : UITabBarController
 
+-(void) addCenterButtonWithImage:(UIImage*)buttonImage highlightImage:(UIImage*)highlightImage;
 
 @end
-

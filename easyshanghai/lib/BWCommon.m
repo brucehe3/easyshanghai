@@ -1,0 +1,28 @@
+//
+//  common.m
+//  easyshanghai
+//
+//  Created by Bruce He on 15-3-16.
+//  Copyright (c) 2015年 shanghai baiwei network technology. All rights reserved.
+//
+
+#import "BWCommon.h"
+
+@implementation BWCommon
+
++(float) getSystemVersion{
+    return [[[UIDevice currentDevice] systemVersion] floatValue];
+}
+
++(void) fixTabBarItem:(UITabBarItem *) tabBarItem {
+    //修复ios7以上 tab选中时的效果
+    
+    if ([BWCommon getSystemVersion] > 7.0){
+        tabBarItem.selectedImage = [tabBarItem.selectedImage imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+        //tabBarItem.image = [tabBarItem.selectedImage imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+    
+        //[tabBarItem setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:[UIColor colorWithRed:255 green:133 blue:0 alpha:1], NSForegroundColorAttributeName, nil] forState:UIControlStateNormal];
+    }
+}
+
+@end
