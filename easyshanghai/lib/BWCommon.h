@@ -19,5 +19,6 @@
 
 +(float) getSystemVersion;
 +(void) fixTabBarItem:(UITabBarItem*) tabBarItem;
++(NSString *) getBaseInfo:(NSString *) key;
 
 @end

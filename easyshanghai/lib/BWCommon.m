@@ -25,4 +25,15 @@
     }
 }
 
++(NSString *) getBaseInfo:(id) key{
+    
+    NSString *plistPath = [[NSBundle mainBundle] pathForResource:@"base" ofType:@"plist"];
+    NSMutableDictionary *data = [[NSMutableDictionary alloc] initWithContentsOfFile:plistPath];
+    NSString * value;
+    
+    value = [data objectForKey:key];
+    
+    return value;
+}
+
 @end

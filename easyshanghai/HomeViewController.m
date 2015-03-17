@@ -7,6 +7,7 @@
 //
 
 #import "HomeViewController.h"
+#import "BWCommon.h"
 
 @interface HomeViewController ()
 
@@ -27,7 +28,6 @@
     
     [[self view] setBackgroundColor:[UIColor colorWithRed:228.0f/255.0f green:228.0f/255.0f blue:228.0f/255.0f alpha:1]];
     
-
 
 }
 
