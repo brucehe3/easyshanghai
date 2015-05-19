@@ -25,11 +25,23 @@
         item = [items objectAtIndex:i];
         item.selectedImage = [item.selectedImage imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
         item.image = [item.selectedImage imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+        
+        
     }
     
     [self addCenterButtonWithImage:[UIImage imageNamed:@"nav-middle-bg.png"] highlightImage:[UIImage imageNamed:@"nav-middle-bg.png"] ];
     //[self.tabBar setSelectedImageTintColor:[UIColor greenColor]];
     // Do any additional setup after loading the view.
+    
+    [[UITabBarItem appearance] setTitleTextAttributes:@{NSFontAttributeName : [UIFont fontWithName:@"HelveticaNeue" size:12.0f],
+                                                        NSForegroundColorAttributeName : [UIColor colorWithRed:255/255.0f green:133/255.0f blue:0/255.0f alpha:1]
+                                                        } forState:UIControlStateSelected];
+
+    [[UITabBarItem appearance] setTitleTextAttributes:@{NSFontAttributeName : [UIFont fontWithName:@"HelveticaNeue" size:12.0f],
+                                                        NSForegroundColorAttributeName : [UIColor whiteColor]
+                                                        } forState:UIControlStateNormal];
+    
+    
 }
 
 - (void)didReceiveMemoryWarning {

@@ -85,6 +85,15 @@
 		32AFCCB21AB6A4BB00227469 /* TabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32AFCCB11AB6A4BB00227469 /* TabBarViewController.m */; };
 		32AFCCB51AB6A8E400227469 /* BWCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 32AFCCB41AB6A8E400227469 /* BWCommon.m */; };
 		32AFCCB91AB6C1BB00227469 /* HomeHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 32AFCCB81AB6C1BB00227469 /* HomeHeadView.m */; };
+		32B4B04A1B0B2BCC00723323 /* home-deals.png in Resources */ = {isa = PBXBuildFile; fileRef = 32B4B0461B0B2BCC00723323 /* home-deals.png */; };
+		32B4B04B1B0B2BCC00723323 /* home-new.png in Resources */ = {isa = PBXBuildFile; fileRef = 32B4B0471B0B2BCC00723323 /* home-new.png */; };
+		32B4B04C1B0B2BCC00723323 /* home-pickup.png in Resources */ = {isa = PBXBuildFile; fileRef = 32B4B0481B0B2BCC00723323 /* home-pickup.png */; };
+		32B4B04D1B0B2BCC00723323 /* home-restaurant.png in Resources */ = {isa = PBXBuildFile; fileRef = 32B4B0491B0B2BCC00723323 /* home-restaurant.png */; };
+		32B4B0501B0B3B1400723323 /* ReserveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32B4B04F1B0B3B1400723323 /* ReserveViewController.m */; };
+		32B4B0541B0B4EFE00723323 /* reserve-date.png in Resources */ = {isa = PBXBuildFile; fileRef = 32B4B0511B0B4EFE00723323 /* reserve-date.png */; };
+		32B4B0551B0B4EFE00723323 /* reserve-plus.png in Resources */ = {isa = PBXBuildFile; fileRef = 32B4B0521B0B4EFE00723323 /* reserve-plus.png */; };
+		32B4B0561B0B4EFE00723323 /* reserve-time.png in Resources */ = {isa = PBXBuildFile; fileRef = 32B4B0531B0B4EFE00723323 /* reserve-time.png */; };
+		32B4B05A1B0B551E00723323 /* BWUILabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 32B4B0591B0B551E00723323 /* BWUILabel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -197,6 +206,17 @@
 		32AFCCB61AB6A8F500227469 /* BWCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWCommon.h; sourceTree = "<group>"; };
 		32AFCCB71AB6C1BB00227469 /* HomeHeadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeHeadView.h; sourceTree = "<group>"; };
 		32AFCCB81AB6C1BB00227469 /* HomeHeadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeHeadView.m; sourceTree = "<group>"; };
+		32B4B0461B0B2BCC00723323 /* home-deals.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home-deals.png"; sourceTree = "<group>"; };
+		32B4B0471B0B2BCC00723323 /* home-new.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home-new.png"; sourceTree = "<group>"; };
+		32B4B0481B0B2BCC00723323 /* home-pickup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home-pickup.png"; sourceTree = "<group>"; };
+		32B4B0491B0B2BCC00723323 /* home-restaurant.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home-restaurant.png"; sourceTree = "<group>"; };
+		32B4B04E1B0B3B1400723323 /* ReserveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReserveViewController.h; sourceTree = "<group>"; };
+		32B4B04F1B0B3B1400723323 /* ReserveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReserveViewController.m; sourceTree = "<group>"; };
+		32B4B0511B0B4EFE00723323 /* reserve-date.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "reserve-date.png"; sourceTree = "<group>"; };
+		32B4B0521B0B4EFE00723323 /* reserve-plus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "reserve-plus.png"; sourceTree = "<group>"; };
+		32B4B0531B0B4EFE00723323 /* reserve-time.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "reserve-time.png"; sourceTree = "<group>"; };
+		32B4B0581B0B551E00723323 /* BWUILabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWUILabel.h; sourceTree = "<group>"; };
+		32B4B0591B0B551E00723323 /* BWUILabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWUILabel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -264,12 +284,15 @@
 		32AFCC141AB69CAF00227469 /* easyshanghai */ = {
 			isa = PBXGroup;
 			children = (
+				32B4B0571B0B54F400723323 /* View */,
 				32AFCCB31AB6A8C900227469 /* lib */,
 				32AFCC3F1AB69FA800227469 /* assets */,
 				32AFCC191AB69CAF00227469 /* AppDelegate.h */,
 				32AFCC1A1AB69CAF00227469 /* AppDelegate.m */,
 				32AFCC1C1AB69CAF00227469 /* HomeViewController.h */,
 				32AFCC1D1AB69CAF00227469 /* HomeViewController.m */,
+				32B4B04E1B0B3B1400723323 /* ReserveViewController.h */,
+				32B4B04F1B0B3B1400723323 /* ReserveViewController.m */,
 				32AFCC1F1AB69CAF00227469 /* NearbyViewController.h */,
 				32AFCC201AB69CAF00227469 /* NearbyViewController.m */,
 				32AFCC221AB69CAF00227469 /* Main.storyboard */,
@@ -314,6 +337,13 @@
 		32AFCC3F1AB69FA800227469 /* assets */ = {
 			isa = PBXGroup;
 			children = (
+				32B4B0511B0B4EFE00723323 /* reserve-date.png */,
+				32B4B0521B0B4EFE00723323 /* reserve-plus.png */,
+				32B4B0531B0B4EFE00723323 /* reserve-time.png */,
+				32B4B0461B0B2BCC00723323 /* home-deals.png */,
+				32B4B0471B0B2BCC00723323 /* home-new.png */,
+				32B4B0481B0B2BCC00723323 /* home-pickup.png */,
+				32B4B0491B0B2BCC00723323 /* home-restaurant.png */,
 				32AFCC401AB69FA800227469 /* btn-next.png */,
 				32AFCC411AB69FA800227469 /* btn-prev.png */,
 				32AFCC421AB69FA800227469 /* Default-568h@2x.png */,
@@ -384,6 +414,15 @@
 				32AFCCB41AB6A8E400227469 /* BWCommon.m */,
 			);
 			path = lib;
+			sourceTree = "<group>";
+		};
+		32B4B0571B0B54F400723323 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				32B4B0581B0B551E00723323 /* BWUILabel.h */,
+				32B4B0591B0B551E00723323 /* BWUILabel.m */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -479,11 +518,14 @@
 				32AFCCAC1AB69FA800227469 /* star2.png in Resources */,
 				32AFCC841AB69FA800227469 /* icon-booking.png in Resources */,
 				32AFCC811AB69FA800227469 /* home-ad3.jpg in Resources */,
+				32B4B0541B0B4EFE00723323 /* reserve-date.png in Resources */,
 				32AFCC891AB69FA800227469 /* icon-detail-favorite.png in Resources */,
 				32AFCC8F1AB69FA800227469 /* icon-detail-time.png in Resources */,
 				32AFCC9E1AB69FA800227469 /* nav-me@2x.png in Resources */,
+				32B4B0551B0B4EFE00723323 /* reserve-plus.png in Resources */,
 				32AFCC911AB69FA800227469 /* icon-event.png in Resources */,
 				32AFCC8E1AB69FA800227469 /* icon-detail-taxi.png in Resources */,
+				32B4B04A1B0B2BCC00723323 /* home-deals.png in Resources */,
 				32AFCC971AB69FA800227469 /* logo.png in Resources */,
 				32AFCC791AB69FA800227469 /* btn-prev.png in Resources */,
 				32AFCC951AB69FA800227469 /* icon-shop-comments.png in Resources */,
@@ -491,6 +533,7 @@
 				32AFCC901AB69FA800227469 /* icon-detail-wechat.png in Resources */,
 				32AFCC9C1AB69FA800227469 /* nav-home@3x.png in Resources */,
 				32AFCCAE1AB69FA800227469 /* star4.png in Resources */,
+				32B4B04B1B0B2BCC00723323 /* home-new.png in Resources */,
 				32AFCC991AB69FA800227469 /* nav-bg@2x.png in Resources */,
 				32AFCCA31AB69FA800227469 /* nav-middle@3x.png in Resources */,
 				32AFCC941AB69FA800227469 /* icon-search.png in Resources */,
@@ -499,8 +542,10 @@
 				32AFCCA61AB69FA800227469 /* nav-more@3x.png in Resources */,
 				32AFCCAB1AB69FA800227469 /* star1.png in Resources */,
 				32AFCC821AB69FA800227469 /* home-banner.jpg in Resources */,
+				32B4B04C1B0B2BCC00723323 /* home-pickup.png in Resources */,
 				32AFCC7C1AB69FA800227469 /* Default.png in Resources */,
 				32AFCC9F1AB69FA800227469 /* nav-me@3x.png in Resources */,
+				32B4B04D1B0B2BCC00723323 /* home-restaurant.png in Resources */,
 				32AFCC7F1AB69FA800227469 /* home-ad1.jpg in Resources */,
 				32AFCC9B1AB69FA800227469 /* nav-home@2x.png in Resources */,
 				32AFCC9A1AB69FA800227469 /* nav-home.png in Resources */,
@@ -526,6 +571,7 @@
 				32AFCC7A1AB69FA800227469 /* Default-568h@2x.png in Resources */,
 				32AFCCA81AB69FA800227469 /* nav-nearby@2x.png in Resources */,
 				32AFCC921AB69FA800227469 /* icon-promotion.png in Resources */,
+				32B4B0561B0B4EFE00723323 /* reserve-time.png in Resources */,
 				32AFCC831AB69FA800227469 /* icon-add.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -549,10 +595,12 @@
 				32AFCC211AB69CAF00227469 /* NearbyViewController.m in Sources */,
 				32AFCCB51AB6A8E400227469 /* BWCommon.m in Sources */,
 				321B9EC91AB830C1006B0560 /* AFURLResponseSerialization.m in Sources */,
+				32B4B0501B0B3B1400723323 /* ReserveViewController.m in Sources */,
 				32AFCC1B1AB69CAF00227469 /* AppDelegate.m in Sources */,
 				321B9EC81AB830C1006B0560 /* AFURLRequestSerialization.m in Sources */,
 				321B9EC61AB830C1006B0560 /* AFSecurityPolicy.m in Sources */,
 				321B9EC21AB830C1006B0560 /* AFHTTPRequestOperation.m in Sources */,
+				32B4B05A1B0B551E00723323 /* BWUILabel.m in Sources */,
 				321B9ECA1AB830C1006B0560 /* AFURLSessionManager.m in Sources */,
 				32AFCCB91AB6C1BB00227469 /* HomeHeadView.m in Sources */,
 				32AFCC1E1AB69CAF00227469 /* HomeViewController.m in Sources */,
