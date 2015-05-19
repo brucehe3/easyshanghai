@@ -20,5 +20,6 @@
 +(float) getSystemVersion;
 +(void) fixTabBarItem:(UITabBarItem*) tabBarItem;
 +(NSString *) getBaseInfo:(NSString *) key;
++(NSString *) getAPIUrl:(NSString *) action;
 
 @end
