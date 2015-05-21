@@ -34,6 +34,7 @@
 		325A8ADE1B0DFCEF00CEA0AB /* UIScrollView+MJRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 325A8AD11B0DFCEF00CEA0AB /* UIScrollView+MJRefresh.m */; };
 		325A8ADF1B0DFCEF00CEA0AB /* UIView+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 325A8AD31B0DFCEF00CEA0AB /* UIView+MJExtension.m */; };
 		325A8AE21B0DFD4200CEA0AB /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 325A8AE11B0DFD4200CEA0AB /* MBProgressHUD.m */; };
+		32AD452D1B0E27DB001A3D69 /* MeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32AD452C1B0E27DB001A3D69 /* MeViewController.m */; };
 		32AFCC181AB69CAF00227469 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 32AFCC171AB69CAF00227469 /* main.m */; };
 		32AFCC1B1AB69CAF00227469 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 32AFCC1A1AB69CAF00227469 /* AppDelegate.m */; };
 		32AFCC1E1AB69CAF00227469 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32AFCC1D1AB69CAF00227469 /* HomeViewController.m */; };
@@ -176,6 +177,8 @@
 		325A8AD31B0DFCEF00CEA0AB /* UIView+MJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MJExtension.m"; sourceTree = "<group>"; };
 		325A8AE01B0DFD4200CEA0AB /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
 		325A8AE11B0DFD4200CEA0AB /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		32AD452B1B0E27DB001A3D69 /* MeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeViewController.h; sourceTree = "<group>"; };
+		32AD452C1B0E27DB001A3D69 /* MeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeViewController.m; sourceTree = "<group>"; };
 		32AFCC121AB69CAF00227469 /* easyshanghai.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = easyshanghai.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		32AFCC161AB69CAF00227469 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		32AFCC171AB69CAF00227469 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -341,6 +344,23 @@
 			path = MJRefresh;
 			sourceTree = "<group>";
 		};
+		32AD452A1B0E279D001A3D69 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				32AFCC1C1AB69CAF00227469 /* HomeViewController.h */,
+				32AFCC1D1AB69CAF00227469 /* HomeViewController.m */,
+				32AD452B1B0E27DB001A3D69 /* MeViewController.h */,
+				32AD452C1B0E27DB001A3D69 /* MeViewController.m */,
+				32B4B04E1B0B3B1400723323 /* ReserveViewController.h */,
+				32B4B04F1B0B3B1400723323 /* ReserveViewController.m */,
+				32AFCC1F1AB69CAF00227469 /* NearbyViewController.h */,
+				32AFCC201AB69CAF00227469 /* NearbyViewController.m */,
+				32AFCCB01AB6A4BB00227469 /* TabBarViewController.h */,
+				32AFCCB11AB6A4BB00227469 /* TabBarViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
 		32AFCC091AB69CAF00227469 = {
 			isa = PBXGroup;
 			children = (
@@ -362,20 +382,13 @@
 		32AFCC141AB69CAF00227469 /* easyshanghai */ = {
 			isa = PBXGroup;
 			children = (
+				32AD452A1B0E279D001A3D69 /* Controller */,
 				32B4B0571B0B54F400723323 /* View */,
 				32AFCCB31AB6A8C900227469 /* lib */,
 				32AFCC3F1AB69FA800227469 /* assets */,
 				32AFCC191AB69CAF00227469 /* AppDelegate.h */,
 				32AFCC1A1AB69CAF00227469 /* AppDelegate.m */,
-				32AFCC1C1AB69CAF00227469 /* HomeViewController.h */,
-				32AFCC1D1AB69CAF00227469 /* HomeViewController.m */,
-				32B4B04E1B0B3B1400723323 /* ReserveViewController.h */,
-				32B4B04F1B0B3B1400723323 /* ReserveViewController.m */,
-				32AFCC1F1AB69CAF00227469 /* NearbyViewController.h */,
-				32AFCC201AB69CAF00227469 /* NearbyViewController.m */,
 				32AFCC221AB69CAF00227469 /* Main.storyboard */,
-				32AFCCB01AB6A4BB00227469 /* TabBarViewController.h */,
-				32AFCCB11AB6A4BB00227469 /* TabBarViewController.m */,
 				32AFCC251AB69CAF00227469 /* Images.xcassets */,
 				32AFCC271AB69CAF00227469 /* LaunchScreen.xib */,
 				32AFCC151AB69CAF00227469 /* Supporting Files */,
@@ -694,6 +707,7 @@
 				321B9EC81AB830C1006B0560 /* AFURLRequestSerialization.m in Sources */,
 				325A8AD81B0DFCEF00CEA0AB /* MJRefreshGifFooter.m in Sources */,
 				325A8ADC1B0DFCEF00CEA0AB /* MJRefreshLegendHeader.m in Sources */,
+				32AD452D1B0E27DB001A3D69 /* MeViewController.m in Sources */,
 				325A8AD91B0DFCEF00CEA0AB /* MJRefreshGifHeader.m in Sources */,
 				325A8ADA1B0DFCEF00CEA0AB /* MJRefreshHeader.m in Sources */,
 				321B9EC61AB830C1006B0560 /* AFSecurityPolicy.m in Sources */,
