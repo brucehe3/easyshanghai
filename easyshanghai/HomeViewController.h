@@ -8,24 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
-@interface HomeViewController : UIViewController<UIScrollViewDelegate>
+@interface HomeViewController : UIViewController
 
-@property (weak, nonatomic) IBOutlet UIView *homeHeadView;
 
-@property (strong,nonatomic)UIScrollView *scrollView;
-@property (strong,nonatomic)NSMutableArray *slideImages;
-//@property (strong,nonatomic)UIPageControl *pageControl;
 @property (strong, nonatomic)UITextField *text;
 
 @property (strong,nonatomic) UIScrollView *bodyScrollView;
 
-
-- (void) initHeadView;
-
-
-- (void) initMenuView;
-
-- (void) initADView;
 
 @end
 

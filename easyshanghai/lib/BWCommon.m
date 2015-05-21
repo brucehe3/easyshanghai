@@ -38,8 +38,8 @@
 
 +(NSString *) getAPIUrl:(NSString *) action{
     
-    NSString * api_url;
-    api_url = [BWCommon getBaseInfo:@"api_url"];
+    NSString * api_url = @"http://easyshanghai.s11.baiwei.org/app/";
+    //api_url = [BWCommon getBaseInfo:@"api_url"];
     return [NSString stringWithFormat:@"%@%@",api_url,action];
     
 }
